@@ -1,0 +1,3 @@
+zengjia_maoyie = {
+	trade_value = 10086
+}

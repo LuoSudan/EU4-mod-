@@ -1,0 +1,98 @@
+country_decisions = {
+
+	country_decisions_01 = {
+		potential = {
+			tag = MNG
+			stability = 0
+		}
+		allow = { 
+			owns_core_province = 2157 #惠州
+			owns_core_province = 673 #镇远
+			owns_core_province = 4199 #铜仁
+			owns_core_province = 2166 #德宏
+			owns_core_province = 2150 #金华
+			owns_core_province = 666 #琼州
+			owns_core_province = 730 #吉林
+			owns_core_province = 4197 #黄州
+		}
+		effect = {
+			2157 = {
+				change_trade_goods = cloves
+			}
+			673 = {
+				change_trade_goods = coffee
+			}
+			4199 = {
+				change_trade_goods = cocoa
+			}
+			2157 = {
+				change_trade_goods = cloves
+			}
+			2166 = {
+				change_trade_goods = cotton
+			}
+			2150 = {
+				change_trade_goods = glass
+			}
+			666 = {
+				change_trade_goods = cloves
+			}
+			730 = {
+				change_trade_goods = fur
+			}
+			4397 = {
+				change_trade_goods = wine
+			}
+		}
+	}
+
+	country_decisions_02 = {
+		potential = {
+			tag = MNG
+			stability = 0
+		}
+		allow = {
+			owns_core_province = 4223
+			owns_core_province = 726
+			owns_core_province = 730
+			owns_core_province = 613
+			owns_core_province = 607
+		}
+		effect = {
+			4223 = {
+				add_province_modifier = { 
+					name = zengjia_maoyie
+					duration = -1  
+				}
+			}
+			726 = {
+				add_province_modifier = { 
+					name = zengjia_maoyie
+					duration = -1  
+				}
+			}
+			730 = {
+				add_province_modifier = { 
+					name = zengjia_maoyie
+					duration = -1  
+				}
+			}
+			613 = {
+				add_province_modifier = { 
+					name = zengjia_maoyie
+					duration = -1  
+				}
+			}
+			607 = {
+				add_province_modifier = { 
+					name = zengjia_maoyie
+					duration = -1  
+				}
+			}
+
+		}
+	}
+
+
+
+}
