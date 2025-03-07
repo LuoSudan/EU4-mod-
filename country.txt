@@ -3,7 +3,7 @@ country_decisions = {
 	country_decisions_01 = {
 		potential = {
 			tag = MNG
-			stability = 0
+			NOT = { has_country_flag = country_decisions_01_ok }
 		}
 		allow = { 
 			owns_core_province = 2157 #惠州
@@ -16,6 +16,7 @@ country_decisions = {
 			owns_core_province = 4197 #黄州
 		}
 		effect = {
+			set_country_flag = country_decisions_01_ok
 			2157 = {
 				change_trade_goods = cloves
 			}
@@ -49,7 +50,7 @@ country_decisions = {
 	country_decisions_02 = {
 		potential = {
 			tag = MNG
-			stability = 0
+			NOT = { has_country_flag = country_decisions_02_ok }
 		}
 		allow = {
 			owns_core_province = 4223
@@ -59,6 +60,7 @@ country_decisions = {
 			owns_core_province = 607
 		}
 		effect = {
+			set_country_flag = country_decisions_02_ok
 			4223 = {
 				add_province_modifier = { 
 					name = zengjia_maoyie
